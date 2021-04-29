@@ -1,0 +1,287 @@
+
+html {
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100vw;
+  height: -webkit-fill-available;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  overflow-x: hidden;
+  overflow-y: auto;
+  justify-content: space-evenly;
+}
+body > * {
+  flex-shrink: 0;
+  min-height: -webkit-fill-available;
+  padding: 1rem;
+}
+
+/*--
+.b-example-divider {
+  width: 1.5rem;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+--*/
+
+.bi {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: currentColor;
+}
+
+.dropdown-toggle { outline: 0; }
+
+.nav-flush .nav-link {
+  border-radius: 0;
+}
+
+.btn-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: .25rem .5rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+  border: 0;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(0, 0, 0, .85);
+  background-color: #d2f4ea;
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(0, 0, 0, .85);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  display: inline-flex;
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+  text-decoration: none;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  background-color: #d2f4ea;
+}
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+.fw-semibold { font-weight: 600; }
+.lh-tight { line-height: 1.25; }
+
+iframe {
+
+  width: 70%;
+  height: auto;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+
+  min-width: 300px;
+  max-width: 100px;
+
+}
+
+table {
+  width: 95%;
+}
+
+.list-group-item.active.gianttiger {
+
+  background-color:#ffd204;
+  color: black;
+  font-size: 700;
+
+}
+
+a.list-group-item-action.gianttiger:hover {
+
+  background-color:#ffd204;
+  color: black;
+  font-size: 700;
+
+}
+
+.list-group-item.active.foodland {
+
+  background-color:#ed1c24;
+  color: #ffffff;
+  font-size: 700;
+
+}
+
+a.list-group-item-action.foodland:hover {
+
+  background-color:#ed1c24;
+  color: #ffffff;
+  font-size: 700;
+
+}
+
+.list-group-item.active.sobeys {
+
+  background-color:#49a547;
+  color: #ffffff;
+  font-size: 700;
+
+}
+
+a.list-group-item-action.sobeys:hover {
+
+  background-color:#49a547;
+  color: #ffffff;
+  font-size: 700;
+
+}
+
+.list-group-item.active {
+
+  border: 0px;
+
+}
+
+.list-group-item {
+
+  border: 1px solid black;
+
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+
+  border-bottom: 1px solid black;
+
+}
+
+.d-flex.flex-column.align-items-stretch {
+
+  width: 75%;
+
+}
+
+table.dataTable td, table.dataTable th {
+
+  font-weight: 600;
+  vertical-align: middle;
+
+}
+
+.disclaimer {
+  font-size: 5px;
+  font-weight: 200;
+  color: rgb(190, 190, 190);
+}
+
+.justify-content-between {
+  justify-content: center!important;
+}
+
+/******* Sobeys ******/
+
+.sobeys-table {
+  text-align: center;
+  }
+  
+.sobeys-table .sorting {
+    background-color: #49a547;
+    color: white;
+    font-weight: 900;
+  }
+  
+.sobeys-table .sorting_asc {
+  background-color: #49a547;
+  color: white;
+  font-weight: 900;
+}
+
+.sobeys-table .sorting_desc {
+  background-color: #49a547;
+  color: white;
+  font-weight: 900;
+}
+
+/******* Giant Tiger ******/
+
+.gianttiger-table {
+  text-align: center;
+}
+
+.gianttiger-table .sorting {
+  background-color: #ffd204;
+  color: black;
+  font-weight: 900;
+}
+
+.gianttiger-table .sorting_asc {
+background-color: #ffd204;
+color: black;
+font-weight: 900;
+}
+
+.gianttiger-table .sorting_desc {
+background-color: #ffd204;
+color: black;
+font-weight: 900;
+}
+
+/******* FoodLand ******/
+
+.foodland-table {
+  text-align: center;
+}
+
+
+.foodland-table .sorting {
+  background-color: #ed1c24;
+  color: white;
+  font-weight: 900;
+}
+
+.foodland-table .sorting_asc {
+background-color: #ed1c24;
+color: white;
+font-weight: 900;
+}
+
+.foodland-table .sorting_desc {
+background-color: #ed1c24;
+color: white;
+font-weight: 900;
+}
+
+.table td, .table th {
+
+  border-top: 0px;
+
+}
