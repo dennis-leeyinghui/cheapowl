@@ -1,7 +1,4 @@
 .DS_Store
 
-#data file
-data
-
 #ignore all csv files
 *.csv
