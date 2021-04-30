@@ -105,7 +105,56 @@ h2 {
 }
 
 html {
-
   padding: 100px;
+}
 
+/* --------- Alert Marquee ---------- */
+
+.marquee3k {
+	background-color:#FFFBBD;
+  color: #382900 ;
+  display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 3vh;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .5s ease-out;
+	-o-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	border-top: 0px;
+}
+
+.marquee3k--visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+.marquee3k a {
+	text-decoration: none
+}
+
+.marquee3k span {
+	font-size: 4rem;;
+}
+
+@media screen and (max-width:992px) {
+	.marquee3k span {
+		font-size: 36px
+	}
+}
+
+@media screen and (max-width:768px) {
+	.marquee3k span {
+		font-size: 27px
+	}
+}
+
+.topnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
 }
