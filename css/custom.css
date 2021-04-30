@@ -162,3 +162,12 @@ a {
   text-decoration: none;
 }
 
+.adBlock {
+
+  min-width: 50%;
+  max-width: 100%;
+  border: 1px solid #3ebfb7;
+  border-radius: 5%;
+  margin-bottom: 20px; 
+  justify-content: center;
+}
