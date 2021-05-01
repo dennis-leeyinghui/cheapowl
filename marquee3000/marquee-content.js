@@ -1,11 +1,9 @@
 var adList = [
-    "要求連囝開放拋波連豬連狗做emoji",
-
-    "From what I understand you have set-up a python simple server in a directory",
+    "Atlantic Canadians capture spring in their communities - CBC",
 
     "Island Abbey Foods: Sales Analyst",
 
-    "懷疑帳號被盜用 申請Del 此Post 內容與相片",
+    "Increase in N.L. visitors to Tourism P.E.I. website little 'glimmers of hope' for future travel",
 ]
 
 var marqueeContent = document.getElementById("marquee-Content");
