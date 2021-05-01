@@ -6,7 +6,6 @@ html {
   height: -webkit-fill-available;
 }
 
-
 body {
   /* display: flex; */
   flex-wrap: wrap;
@@ -187,6 +186,10 @@ a.list-group-item-action.sobeys:hover {
 
 .border-bottom {
   border-bottom: 0px!important;
+}
+
+.table>:not(caption)>*>* {
+  border-bottom-width: 0px!important;
 }
 
 .list-group-flush>.list-group-item {
