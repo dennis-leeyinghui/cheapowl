@@ -25,6 +25,10 @@ h2 {
 
 #logo img { width: 170px; }
 
+img.img-responsive {
+  width: 75%;
+}
+
 .info {
   padding: 6px 8px;
   font: 14px/16px Arial, Helvetica, sans-serif;

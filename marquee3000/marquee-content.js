@@ -1,9 +1,8 @@
 var adList = [
-    "Atlantic Canadians capture spring in their communities - CBC",
+    "<a href='https://www.cbc.ca/news/canada/prince-edward-island/pei-upei-holland-college-tuition-increase-1.6011952'>UPEI increases tuition 1%, Holland College 2%</a>",
 
-    "Island Abbey Foods: Sales Analyst",
+    "<a href='https://www.princeedwardisland.ca/en/information/health-and-wellness/getting-covid-19-vaccine'>Getting the COVID-19 Vaccine</a>",
 
-    "Increase in N.L. visitors to Tourism P.E.I. website little 'glimmers of hope' for future travel",
 ]
 
 var marqueeContent = document.getElementById("marquee-Content");
